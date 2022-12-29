@@ -16,6 +16,7 @@
       "assets",
       "scripts",
       ".gitignore",
+      "package-lock.json",
       "package.json"
     ]
   }
