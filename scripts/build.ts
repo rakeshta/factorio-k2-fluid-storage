@@ -1,3 +1,5 @@
+// FIXME: May be deprecated
+
 import { execFile } from 'child_process';
 
 const BUILD_DIR = 'build/';
