@@ -1,0 +1,17 @@
+{
+  "name": "k2-fluid-storage",
+  "version": "1.0.0",
+  "description": "Fluid storage containers (50k & 200k) from Krastorio 2.",
+  "author": "RaptorTWiked",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-lang": "rm -rf locale && ts-node scripts/copy-lang.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "configparser": "^0.3.10"
+  }
+}

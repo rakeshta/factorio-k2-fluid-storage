@@ -13,7 +13,10 @@
   "package": {
     "ignore": [
       ".vscode",
-      "assets"
+      "assets",
+      "scripts",
+      ".gitignore",
+      "package.json"
     ]
   }
 }
