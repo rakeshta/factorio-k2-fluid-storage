@@ -6,7 +6,8 @@
   "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-lang": "rm -rf locale && ts-node scripts/copy-lang.ts"
+    "copy-lang": "rm -rf locale && ts-node scripts/copy-lang.ts",
+    "build": "rm -rf build && ts-node scripts/build.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.1"
