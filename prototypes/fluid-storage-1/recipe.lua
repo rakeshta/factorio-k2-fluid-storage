@@ -5,8 +5,9 @@ data:extend({
     energy_required = 5,
     enabled = false,
     ingredients = {
-      { "storage-tank", 2 },
-      { "steel-plate", 8 }
+      { "iron-plate", 18 },
+      { "steel-plate", 24 },
+      { "pipe", 4 }
     },
     result = "kr-fluid-storage-1",
   },
