@@ -5,6 +5,8 @@
 --  Created by Rakesh Ayyaswami on 01 Jan 2023.
 --
 
+local prerequisites = k2_steel_pipes_compat and { "kr-steel-fluid-handling" } or { "fluid-handling" }
+
 data:extend({
   {
     type = "technology",
@@ -23,7 +25,7 @@ data:extend({
         recipe = "kr-fluid-storage-2",
       }
     },
-    prerequisites = { "fluid-handling" },
+    prerequisites = prerequisites,
     unit = {
       count = 120,
       ingredients = {
