@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 30. 12. 2022
+  Features:
+    - Added entity: Large storage tank
+    - Added entity: Huge storage tank
+    - Added technology: Steel fluid tanks
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 01. 01. 2023
+  Features:
+    - Added compatibility with k2-steel-pipes mod

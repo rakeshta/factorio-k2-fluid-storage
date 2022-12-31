@@ -26,6 +26,7 @@ cp -r \
   ./info.json \
   ./LICENSE \
   ./README.md \
+  ./changelog.txt \
   ./thumbnail.png \
   ${BUILD_DIR}/${ZIP_NAME}
 
