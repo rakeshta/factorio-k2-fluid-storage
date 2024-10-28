@@ -27,5 +27,6 @@
     "__object_name": "type"
   },
   "Lua.runtime.plugin": "/Users/rakesh/Library/Application Support/Code/User/workspaceStorage/2d9225ae4075589ac7e1cc5953a9b90a/justarandomgeek.factoriomod-debug/sumneko-3rd/factorio/plugin.lua",
-  "cSpell.words": ["factorio"]
+  "cSpell.words": ["factorio"],
+  "Lua.workspace.checkThirdParty": "ApplyInMemory"
 }
