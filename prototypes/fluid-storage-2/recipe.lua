@@ -14,10 +14,10 @@ data:extend({
     energy_required = 10,
     enabled = false,
     ingredients = {
-      { "iron-plate", 32 },
-      { "steel-plate", 64 },
-      { ingredient_pipe, 12 },
+      { type = "item", name = "iron-plate",    amount = 32 },
+      { type = "item", name = "steel-plate",   amount = 64 },
+      { type = "item", name = ingredient_pipe, amount = 12 },
     },
-    result = "kr-fluid-storage-2",
+    results = { { type = "item", name = "kr-fluid-storage-2", amount = 1 } }
   },
 });

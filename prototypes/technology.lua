@@ -19,10 +19,10 @@ data:extend({
         type = "unlock-recipe",
         recipe = "kr-fluid-storage-1",
       },
-      -- {
-      --   type = "unlock-recipe",
-      --   recipe = "kr-fluid-storage-2",
-      -- }
+      {
+        type = "unlock-recipe",
+        recipe = "kr-fluid-storage-2",
+      }
     },
     prerequisites = prerequisites,
     unit = {

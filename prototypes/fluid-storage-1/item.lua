@@ -12,7 +12,7 @@ data:extend({
     icon = k2_fluid_storage_path .. "graphics/fluid-storage-1/fluid-storage-1-icon.png",
     stack_size = 50,
     icon_size = 64,
-    icon_mipmaps = 4,
+    -- icon_mipmaps = 4,
     subgroup = "storage",
     order = "b[fluid]-bb2[storage-tank-2]",
     place_result = "kr-fluid-storage-1",
