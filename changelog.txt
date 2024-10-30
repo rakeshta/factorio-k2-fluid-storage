@@ -17,3 +17,9 @@ Version: 1.1.1
 Date: 05. 01. 2023
   Changes:
     - New thumbnail
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 31. 10. 2024
+  Features:
+    - Now compatible with Factorio 2.0
