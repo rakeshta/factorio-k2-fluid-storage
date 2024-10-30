@@ -11,26 +11,27 @@ data:extend({
     name = "kr-fluid-storage-1",
     icon = k2_fluid_storage_path .. "graphics/fluid-storage-1/fluid-storage-1-icon.png",
     icon_size = 64,
-    icon_mipmaps = 4,
+    -- icon_mipmaps = 4,
     flags = { "placeable-player", "player-creation", "not-rotatable" },
     minable = { mining_time = 0.5, result = "kr-fluid-storage-1" },
     max_health = 750,
     corpse = "big-remnants",
     resistances = {
       { type = "physical", percent = 35 },
-      { type = "fire", percent = 75 },
-      { type = "impact", percent = 50 },
+      { type = "fire",     percent = 75 },
+      { type = "impact",   percent = 50 },
     },
     collision_box = { { -1.25, -1.25 }, { 1.25, 1.25 } },
     selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
     fluid_box = {
       base_area = 500,
+      volume = 50000,
       pipe_covers = pipecoverspictures(),
       pipe_connections = {
-        { position = { -2, 0 } },
-        { position = { 0, -2 } },
-        { position = { 2, 0 } },
-        { position = { 0, 2 } },
+        { direction = defines.direction.north, position = { 0, -1 } },
+        { direction = defines.direction.east,  position = { 1, 0 } },
+        { direction = defines.direction.south, position = { 0, 1 } },
+        { direction = defines.direction.west,  position = { -1, 0 } }
       },
     },
     window_bounding_box = { { -0.125, 0.6875 }, { 0.1875, 1.1875 } },
@@ -124,7 +125,6 @@ data:extend({
       apparent_volume = 1.5,
       max_sounds_per_type = 3,
     },
-
     water_reflection = {
       pictures = {
         filename = k2_fluid_storage_path .. "graphics/fluid-storage-1/fluid-storage-1-reflection.png",
